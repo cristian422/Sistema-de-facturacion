@@ -1,0 +1,14 @@
+import panda as pd
+from SISTEMAS_CLASES.persona import persona 
+
+class ArchivoPersona:
+    Persona: persona 
+    def pagar(FormaDePago) -> True:
+        FormaDePago= persona
+        pass
+    def generarTXT(init) -> None:
+        pd.Dataframe(FormaDePago).to_csv("FormaDePago.cvs")
+
+        
+
+
