@@ -1,4 +1,4 @@
-package Facturacion;
+package SISTEMAS_CLASES;
 
 public class Sucursal {
     String Direccion;
@@ -10,11 +10,20 @@ public class Sucursal {
         this.Nombre=nombre;
     }
 
+
     @Override
     public String toString() {
         return "Sucursal{" +
                 "Direccion='" + Direccion + '\'' +
                 ", Nombre='" + Nombre + '\'' +
                 '}';
+    }
+
+    public String getDireccion() {
+        return Direccion;
+    }
+
+    public String getNombre() {
+        return Nombre;
     }
 }

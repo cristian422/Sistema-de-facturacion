@@ -1,3 +1,0 @@
-class empleado:
-    id: str
-    
