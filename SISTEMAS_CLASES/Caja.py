@@ -9,5 +9,3 @@ class Caja:
         pass
     def VerificarEstado(CarritoDeCompras) -> void:
         pass
-        
-        
