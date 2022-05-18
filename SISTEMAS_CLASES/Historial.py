@@ -1,8 +1,8 @@
 class historial:
-    #caja=caja 
-    #empleado= persona[]
-    hora= str
-    fecha= str
+    #caja: caja 
+    #empleado: persona[]
+    hora: str
+    fecha: str
     
 
 
