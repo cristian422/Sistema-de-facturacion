@@ -1,0 +1,10 @@
+import pandas as pd
+from SISTEMAS_CLASES.PagoEfectivo import PagoEfectivo
+
+
+class ArchivoPagoEfectivo:
+    PagoEfectivo: PagoEfectivo[3]
+    def __init__(PagoEfectivo,FormaDePago) -> True:
+        PagoEfectivo= FormaDePago
+    def GenerarTXT(init):
+        pd.Dataframe(PagoEfectivo).to_csv('FormaDePago.cvs')
