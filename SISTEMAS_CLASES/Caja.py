@@ -1,13 +1,25 @@
 from numpy import void
 
+from Persona import Persona
+from Factrura import Factura
+from Historial import Historial
 class Caja:
-    #Empleado= persona
+    Empleado= Persona
     numero= str
-    #factura=factura
-    #historial=historial
-    def EnviarFactura(Factura) -> True:
+    factura:Factura
+    historial=Historial
+
+    def __init__(self) -> None:
         pass
-    def VerificarEstado(CarritoDeCompras) -> void:
+
+
+    def EnviarFactura() -> True:
         pass
+
+    def verificarEstado(factura:Factura) -> void:
+
+        if(Factura.Estado==True):
+            print("La factura se pago con exito: ")
+        
         
         

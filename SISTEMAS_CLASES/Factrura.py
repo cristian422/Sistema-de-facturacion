@@ -1,5 +1,7 @@
 
-from Persona import persona
+
+from Cliente import Cliente
+from Persona import Persona
 from Empresa import Empresa
 from Encabezado import EncabezadoCarritoDeCompras
 
@@ -7,17 +9,22 @@ class Factura:
     Fecha:str
     Hora:str 
     Precio:int
-    Cliente:persona
-    Empleado=persona
-    Empresa=Empresa
-    #Estado=bool
+    cliente:Cliente
+    Empleado=Persona
+    Empresa:Empresa
+    Estado=bool
     #EncabezadoCarritoCompras=EncabezadoCarritoDeCompras
 
     def __init__(self,fecha:str):
-        #self.estado=True
+        self.estado=True
         self.Fecha=fecha
-    ##self.EnEncabezadoCarritoCompras=encabezadocarrito
-    ##self.Cliente=cliente    cliente,encabezadocarrito
+        self.EnEncabezadoCarritoCompras=EncabezadoCarritoDeCompras
+        self.cliente    
+
+    def CambiarEstado():
+        if ():
+            Factura.Estado==True
+        
 
 
 

@@ -1,11 +1,6 @@
 import pandas as pd
 from Sucursal import Sucursal
 
-
-        
-        
-    
-
 class ArchivoSucursal :
 
     def GenerarArchivoSucursal(self,sucursal=Sucursal):
