@@ -1,4 +1,4 @@
-from sympy import false, true
+from numpy import void
 
 
 class PagoTarjeta:
