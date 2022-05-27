@@ -1,7 +1,0 @@
-import pandas a pd
-from SISTEMAS_CLASES.historial import historial 
-
-class Archivohistorial:
-    historial= caja 
-    def generarTXT(caja).to_csv("caja")
-    
