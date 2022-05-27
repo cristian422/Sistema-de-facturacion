@@ -1,6 +1,7 @@
 from enum import Enum
 import pandas as pd
 from PagoTarjeta import PagoTarjeta1
+from FormaDePago import FormaDePago
 
 class ArchivoPagoTarjeta(Enum):
 

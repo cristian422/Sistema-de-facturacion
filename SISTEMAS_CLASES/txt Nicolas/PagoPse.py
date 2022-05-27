@@ -1,6 +1,8 @@
+import imp
 from numpy import column_stack
 import pandas as pd
 from PagoPse import PagoPse1
+from FormaDePago import FormaDePago
 
 
 class ArchivoPagoPse:
