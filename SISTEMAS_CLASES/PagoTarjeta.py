@@ -1,7 +1,7 @@
 from numpy import void
 
 
-class PagoTarjeta:
+class PagoTarjeta1:
     def __init__(PagoTarjeta,FormaDePago) -> True:
       codigo= str
       banco= str
