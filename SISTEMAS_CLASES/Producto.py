@@ -2,7 +2,7 @@ from UnidadDeMedida import UnidadDeMedida
 class Producto:
     Precio:int
     IdProducto:str
-    Unidad:"UnidadDeMedida"
+    Unidad:UnidadDeMedida
 
     def __init__(self,precio:int,idProducto=str,unidad=UnidadDeMedida):
         self.Precio=precio

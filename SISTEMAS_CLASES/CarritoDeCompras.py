@@ -1,13 +1,14 @@
-from unittest import result
-import  Producto
+
+import re
+from Producto import Producto
 class CarritoDeCompras:
     
-    productoSeleccionado=str
+    productoSeleccionado:Producto
     Cantidad=int
     TotalAPagar=int
 
     def __init__(self,producto:Producto):
-        self.ProductoSeleccionado=producto
+        self.roductoSeleccionado=producto
         self.Cantidad=1
     
 
@@ -19,9 +20,24 @@ class CarritoDeCompras:
         cantidad= int (input("cuantos desea eliminar: "))
         self.Cantidad=self.Cantidad +cantidad
 
-    def CalcularTotalProducto(self):
-        resultado=int
-        self.TotalAPagar=self.ProductoSeleccionado*self.Cantidad
+    def CalcularTotalProducto(self): 
+        print (self.Cantidad)
+        print(self.productoSeleccionado.Precio)
+        self.TotalAPagar=self.Cantidad* self.productoSeleccionado.Precio
+    
+        return print("regreso")
+
+
+    def ProductoSeleccionado(self):
+        return self.productoSeleccionado
+    
+    def Catidad(self):
+        return self.Cantidad
+    
+    def ToTalAPagar(self):
+        return self.TotalAPagar
+        
+        
 
 
     
